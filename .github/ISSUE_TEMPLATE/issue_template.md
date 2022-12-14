@@ -1,3 +1,4 @@
+
 ---
 name: issue tamplate
 about: for LeetCode task
