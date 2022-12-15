@@ -1,3 +1,10 @@
+# n = len(nums)
+# time: O(n)
+# space: O(n)
+
+from typing import List
+
+
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
         
