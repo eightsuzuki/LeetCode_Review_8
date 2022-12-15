@@ -1,4 +1,11 @@
-]class Solution:
+# n = len(nums)
+# time: O(n)
+# space: O(n)
+
+from typing import List
+
+
+class Solution:
     def twoSum(self, numbers: List[int], target: int) -> List[int]:
 
         left = 0
