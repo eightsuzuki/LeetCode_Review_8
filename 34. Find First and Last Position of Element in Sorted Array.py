@@ -1,5 +1,5 @@
 # n = len(nums)
-# time: O(n)
+# time: O(log n)
 # space: O(n)
 
 from typing import List
