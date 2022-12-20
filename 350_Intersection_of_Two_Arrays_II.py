@@ -1,19 +1,12 @@
-# n2 = len(nums2)
-# time: O(n2)
-# space: O(0)
+# n1 = len(nums1), n2 = len(nums2)
+# time: O(n1+n2)
+# space: O(n1+n2)
 
 from typing import List
 
 
-
 class Solution:
     def intersect(self, nums1: List[int], nums2: List[int]) -> List[int]:
-
-        out = []
-
-        for i in nums2:
-            if i in nums1:
-                out.append(i)
-                nums1.remove(i)
-
-        return out
+       
+        a, b = map(Counter, (nums1, nums2)
+        return list((a & b).elements())
