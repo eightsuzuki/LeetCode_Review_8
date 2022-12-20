@@ -1,6 +1,6 @@
 # n = len(nums)
 # time: O(n)
-# space: O(n)
+# space: O(1)
 
 from typing import List
 
