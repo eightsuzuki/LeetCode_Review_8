@@ -1,6 +1,6 @@
-# n = len(nums)
-# time: O(n)
-# space: O(n)
+# n = n = row_num * col_num
+# time: O(log n)
+# space: O(1)
 
 from typing import List
 
