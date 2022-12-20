@@ -1,6 +1,6 @@
 # n = len(nums)
-# time: O(n)
-# space: O(n)
+# time: O(log n)
+# space: O(1)
 
 from typing import List
 
@@ -15,7 +15,7 @@ class Solution:
         right = len(nums) - 1
  
         while left <= right:
-            mid = (right + left) // 2
+            mid = (right+left) // 2
             if nums[mid + 1] < nums[mid]:
                 return nums[mid + 1]
             elif nums[mid - 1] > nums[mid]:
