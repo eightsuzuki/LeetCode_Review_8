@@ -11,7 +11,6 @@ from typing import List
 #         self.next = next
 class Solution:
     def rotateRight(self, head: Optional[ListNode], k: int) -> Optional[ListNode]:
-                
         if not head:
             return None
         if not head.next:
