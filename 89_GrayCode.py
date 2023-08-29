@@ -16,3 +16,4 @@ class Solution:
             s = s + ns[:: -1]
             
         return s
+    
