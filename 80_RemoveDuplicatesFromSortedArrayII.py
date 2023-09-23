@@ -4,13 +4,13 @@
 
 from typing import List
 
-class Solution:
-    def removeDuplicates(self, nums: List[int]) -> int:
+
+class RemoveDuplicatesFromSortedArray:
+    def remove_duplicates(self, nums: List[int]) -> int:
         count = 0
-    
-        for i in nums:
-            if count < 2 or i != nums[count - 2]:
-                nums[count] = i
+        for num in nums:
+            if count < 2 or num != nums[count - 2]:
+                nums[count] = num
                 count += 1
 
         return count
