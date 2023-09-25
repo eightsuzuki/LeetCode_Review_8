@@ -15,7 +15,6 @@ class TreeNode:
         self.val = val
         self.left = left
         self.right = right
-        
 
 class Solution:
     def buildTree(self, inorder: List[int], postorder: List[int]) -> Optional[TreeNode]:
